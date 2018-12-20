@@ -1,1 +1,0 @@
-/usr/bin/c++  -pedantic -Wall -Werror    CMakeFiles/inf_loop.dir/test_inf_loop.cpp.o  -o inf_loop 

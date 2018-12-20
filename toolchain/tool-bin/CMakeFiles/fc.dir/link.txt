@@ -1,1 +1,0 @@
-/usr/bin/c++  -pedantic -Wall -Werror -DNOLIMIT -DHAVEFUN -DSPREDUND   CMakeFiles/fc.dir/fc.cpp.o  -o fc 
