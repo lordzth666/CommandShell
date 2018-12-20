@@ -1,5 +1,0 @@
-/home/lordzth/CommandShell/build/CMakeFiles/rebuild_cache.dir
-/home/lordzth/CommandShell/build/CMakeFiles/edit_cache.dir
-/home/lordzth/CommandShell/build/CMakeFiles/performance.dir
-/home/lordzth/CommandShell/build/CMakeFiles/cshell.dir
-/home/lordzth/CommandShell/build/CMakeFiles/csh.dir
