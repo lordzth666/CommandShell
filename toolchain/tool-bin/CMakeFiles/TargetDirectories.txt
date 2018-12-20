@@ -1,0 +1,3 @@
+/home/lordzth/CommandShell/toolchain/tool-bin/CMakeFiles/rebuild_cache.dir
+/home/lordzth/CommandShell/toolchain/tool-bin/CMakeFiles/fc.dir
+/home/lordzth/CommandShell/toolchain/tool-bin/CMakeFiles/edit_cache.dir

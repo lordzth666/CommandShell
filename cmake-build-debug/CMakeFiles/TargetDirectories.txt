@@ -1,0 +1,5 @@
+/home/lordzth/ece551/mp_miniproject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lordzth/ece551/mp_miniproject/cmake-build-debug/CMakeFiles/cshell.dir
+/home/lordzth/ece551/mp_miniproject/cmake-build-debug/CMakeFiles/csh.dir
+/home/lordzth/ece551/mp_miniproject/cmake-build-debug/CMakeFiles/performance.dir
+/home/lordzth/ece551/mp_miniproject/cmake-build-debug/CMakeFiles/edit_cache.dir

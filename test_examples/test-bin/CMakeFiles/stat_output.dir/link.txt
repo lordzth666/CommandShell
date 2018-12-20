@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic -Wall -Werror    CMakeFiles/stat_output.dir/stat_output.cpp.o  -o stat_output 

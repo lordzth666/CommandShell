@@ -1,0 +1,76 @@
+Miniproject Test
+[Before Test]
+1. change directory to the Project root:
+tz86@ece551:~$ cd /home/tz86/ece551/mp_miniproject
+
+2. Build shell kernal and test files:
+tz86@ece551:~/ece551/mp_miniproject$ make clean
+tz86@ece551:~/ece551/mp_miniproject$ make all
+This may take minutes. Please be patient.
+
+3. Run ./csh and do whatever you like.
+tz86@ece551:~/ece551/mp_miniproject$ ./csh
+Welcome to Cshell 3.0.0 on ECE551
+tz86@ece551:/home/tz86/ece551/mp_miniproject$ 
+
+4. I have export the project path to the search path in ~/.bashrc. Therefore, you can invoke my shell by just typing:
+tz86@ece551:~$ csh
+Anywhere if you have completed building the whole project.
+
+[Configurable CXXFLAGS]
+There are some CXXFLAGS in the CMakeLists.txt which you may find useful when you are using the csh:
+-DNOLIMIT: if the flag 'NOLIMIT' is defined, the shell can take an unlimited number of commands at one time. Otherwise, it will just run a few commands and stop.
+-DSPREDUND: if the flag "SUPREDUND" is defined, it will suppress redundant outputs when the program exits with exit code 0. (Which makes it look like a real shell.)
+-DCOLORED_OUTPUT: enable the colored output if "COLORED_OUTPUT" is defined. If you want to diff the output files during test, please disable this flag as it will produce redundant character format on each string output.
+
+I recommend that during testing, you should leave the CXXFLAGS unchanged to achieve the best performance.
+[Features]
+Step1-Step4 have been completed. Also, this csh adds a function of running a .sh script by adding the shell bang:
+#!/home/tz86/ece551/mp_miniproject/csh
+At the first line of the script. Then you can run it in the default bash without explicitly invoking the csh. Otherwise, you can only use
+run [filename]
+or
+source [filename]
+in csh command line to run a .sh script.
+Also, .cshrc and .csh_history are supported to configure the shell at the begining. Alias is also supported.
+Now let's begin our test.
+[Test]
+Change directory to the project home folder.
+Run run_test.sh to see the result.
+Or, you can run .sh file in the test/ folder in cshell to see the result respectively.
+For example, open cshell and run
+-----------------------------------------------------------------------------------
+tz86@ece551:/home/tz86/ece551/mp_miniproject$ run test/01_test_command.sh
+-----------------------------------------------------------------------------------
+And view the results in the terminal.
+Also, you can run
+-----------------------------------------------------------------------------------
+tz86@ece551:~/ece551/mp_miniproject$ valgrind --leak-check=full csh run_test.csh
+-----------------------------------------------------------------------------------
+in bash to see the valgrind report on all tests.
+[Output Interpretation]
+If you see an output beginning with [INFO], this means it is an information, indicating the testcase it is about.
+The comment in .sh can help you check whether the output should be as expected. Note that for characters in "", you should consider the escape characters, while the characters in '', escape characters should not be considered.
+e.g.
+"\n" means a newline, but '\n' just means character "\" and "n".
+[Note]
+If there are something exiting failure, valgrind may report errors. However, those errors are temporary as when the child process exits, the resource will be recollected. Therefore, valgrind should be clean when the shell is terminated.
+(Potential case: unknown command, bad file descriptor, etc.)
+Also, the cshell searches path in $ECE551PATH as is requested, not in $PATH. Although their values are the same after initialization.
+*************************************************************************************************************************************
+DO NOT REMOVE .cshrc! Also, only change it as is instructed in the .cshrc file if you want to.
+*************************************************************************************************************************************
+Description for binaries in ./test-bin
+----------------------------------------------------------------------------------------------------------------------------------------------
+./test-bin/grep_prime: similar to `grep` command, grep the prime numbers in the input stream.
+./test-bin/hello_world: print a "hello world".
+./test-bin/seg_fault: raise segmentation fault.
+./test-bin/random_generator: generate n random numbers. Takes one arg n.
+./test-bin/range_generator: generate range(0,n). Takes one arg n.
+./test-bin/inf_loop: trigger a infinity loop.
+./test-bin/stat_output: stat number of lines in the input stream. named 'output' because the input is often the output from the pipe.
+./test-bin/test_argcnt: Count the args entered into the program. Used to test escape characters.
+./test-bin/test_arg: Small programs takes an arg as an input, and output another.
+./test-bin/test_echo: echo the input out.
+./test-bin/test_length: test the string length.
+----------------------------------------------------------------------------------------------------------------------------------------------

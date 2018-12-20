@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic -Wall -Werror    CMakeFiles/test_argcnt.dir/test_argcnt.cpp.o  -o test_argcnt 

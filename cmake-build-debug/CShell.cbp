@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CShell"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lordzth/ece551/mp_miniproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lordzth/ece551/mp_miniproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cshell">
+				<Option output="/home/lordzth/ece551/mp_miniproject/cmake-build-debug/libcshell.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lordzth/ece551/mp_miniproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 cshell"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cshell/fast">
+				<Option output="/home/lordzth/ece551/mp_miniproject/cmake-build-debug/libcshell.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lordzth/ece551/mp_miniproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 cshell/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="csh">
+				<Option output="/home/lordzth/ece551/mp_miniproject/cmake-build-debug/csh" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lordzth/ece551/mp_miniproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 csh"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="csh/fast">
+				<Option output="/home/lordzth/ece551/mp_miniproject/cmake-build-debug/csh" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lordzth/ece551/mp_miniproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 csh/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="performance">
+				<Option output="/home/lordzth/ece551/mp_miniproject/cmake-build-debug/performance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lordzth/ece551/mp_miniproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 performance"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="performance/fast">
+				<Option output="/home/lordzth/ece551/mp_miniproject/cmake-build-debug/performance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lordzth/ece551/mp_miniproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 performance/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lordzth/ece551/mp_miniproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lordzth/ece551/mp_miniproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/application/csh.cpp">
+			<Option target="csh"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/application/performance.cpp">
+			<Option target="performance"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/include/Config.hpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/include/Cshell.hpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/include/Environment.hpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/include/History.hpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/include/builtin.hpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/include/defs.hpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/include/file.hpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/include/parse.hpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/include/utilities.hpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/include/version.hpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/src/Config.cpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/src/Cshell.cpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/src/Environment.cpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/src/History.cpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/src/builtin.cpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/src/defs.cpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/src/file.cpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/src/parse.cpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/src/utilities.cpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/src/version.cpp">
+			<Option target="cshell"/>
+		</Unit>
+		<Unit filename="/home/lordzth/ece551/mp_miniproject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
