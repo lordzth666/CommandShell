@@ -34,6 +34,7 @@ namespace Cshell {
       std::ifstream ifs("initialPath.txt", std::ios::in);
       std::getline(ifs, fixed_path);
       cfg._setProjectRoot(fixed_path);
+      run_one_line("rm -rf initialPath.txt");
       ifs.close();
     }
     
