@@ -1,4 +1,4 @@
-#!/home/tz86/ece551/mp_miniproject/csh
+#!./csh
 echo "[Test 03: test echo]"
 echo "[Info]Testing with a normal string:"
 echo "Hello world!"

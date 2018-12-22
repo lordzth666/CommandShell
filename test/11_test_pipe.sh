@@ -1,18 +1,5 @@
 #!./csh
 echo "[Test 11: test pipe]"
-cd ~
-echo "[Info]Testing ls with grep..."
-ls | grep a
-# Should see "workspace" if nothing else is created
-echo "[Info]Adding a piped grep pattern..."
-ls | grep a | grep b
-# Should see nothing if nothing else is created, program exits with exitcode 1.
-echo "[Info]Adding another grep pattern..."
-ls | grep a | grep c
-# Should see "workspace" if nothing else is created
-echo "[Info]Testing a distorted pipe format..."
-ls|grep a
-# Should see "workspace" if nothing else is created
 echo "[Info]Testing grep prime with small ranged input..."
 cd $PROJECT_ROOT
 cd test-bin
@@ -59,5 +46,17 @@ echo "[Info]Testing with pipe after previous output is appended..."
 echo "[Info]Viewing output..."
 cat tmp_output.txt
 # Should see random number two times
-
+cd ~
+echo "[Info]Testing ls with grep..."
+ls | grep a
+# Should see "workspace" if nothing else is created
+echo "[Info]Adding a piped grep pattern..."
+ls | grep a | grep b
+# Should see nothing if nothing else is created, program exits with exitcode 1.
+echo "[Info]Adding another grep pattern..."
+ls | grep a | grep c
+# Should see "workspace" if nothing else is created
+echo "[Info]Testing a distorted pipe format..."
+ls|grep a
+# Should see "workspace" if nothing else is created
 rm -rf tmp_output.txt

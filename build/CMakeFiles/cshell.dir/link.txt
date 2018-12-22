@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcshell.a  CMakeFiles/cshell.dir/src/Config.cpp.o CMakeFiles/cshell.dir/src/Cshell.cpp.o CMakeFiles/cshell.dir/src/Environment.cpp.o CMakeFiles/cshell.dir/src/History.cpp.o CMakeFiles/cshell.dir/src/builtin.cpp.o CMakeFiles/cshell.dir/src/defs.cpp.o CMakeFiles/cshell.dir/src/file.cpp.o CMakeFiles/cshell.dir/src/parse.cpp.o CMakeFiles/cshell.dir/src/utilities.cpp.o CMakeFiles/cshell.dir/src/version.cpp.o
+/usr/bin/ranlib libcshell.a

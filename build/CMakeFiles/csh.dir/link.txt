@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic -Wall -Werror -ggdb3 -O3 -DNOLIMIT -DSPREDUND -DCOLORED_OUTPUT   CMakeFiles/csh.dir/application/csh.cpp.o  -o csh libcshell.a 

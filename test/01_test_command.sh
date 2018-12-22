@@ -1,4 +1,4 @@
-#./csh
+#!./csh
 echo "[Test 01: test command]"
 # These are usual commands and should produce output as expected in shell.
 echo "[Info]Testing with command export:"
@@ -10,9 +10,6 @@ ls
 echo "[Info]Testing with command /bin/ls:"
 /bin/ls
 # Should see the same results
-echo "[Info]Testing with command fc:(redirected to $PROJECT_ROOT/tool-bin/fc)"
-fc
-# Should see exit code 1 because of bad usage
 echo "[Info]Testing with ./test-bin/hello_world:"
 ./test-bin/hello_world
 # Should see "hello world"

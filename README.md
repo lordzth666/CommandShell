@@ -6,7 +6,8 @@ cd $PROJECT_ROOT
 make all
 ### 3. Run the Cshell.
 ./csh
-
+### 4. Run test
+./csh test/[test_name].sh
 
 
 #### TODO List:
