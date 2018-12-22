@@ -1,5 +1,0 @@
-/usr/data/Repo/CommandShell/build/CMakeFiles/rebuild_cache.dir
-/usr/data/Repo/CommandShell/build/CMakeFiles/edit_cache.dir
-/usr/data/Repo/CommandShell/build/CMakeFiles/performance.dir
-/usr/data/Repo/CommandShell/build/CMakeFiles/cshell.dir
-/usr/data/Repo/CommandShell/build/CMakeFiles/csh.dir
