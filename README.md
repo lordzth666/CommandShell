@@ -2,7 +2,7 @@
 Command Shell demo
 ### 1. cd to the project root:
 cd $PROJECT_ROOT
-### 2. Build kernal
+### 2. Build kernel
 make all
 ### 3. Run the Cshell.
 ./csh
